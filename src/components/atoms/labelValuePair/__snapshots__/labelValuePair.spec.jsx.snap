@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/LabelValuePair LabelCheckBoxPair Renders with checkbox and label 1`] = `
+<label
+  className="checkbox"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    className="ml-2"
+  >
+    Test label
+  </span>
+</label>
+`;
+
+exports[`Atoms/LabelValuePair LabelCheckBoxPair Renders with checkbox, label and className 1`] = `
+<label
+  className="checkbox"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    className="ml-4"
+  >
+    Test label
+  </span>
+</label>
+`;
+
+exports[`Atoms/LabelValuePair LabelCheckBoxPair Renders with checkbox, label and onClick 1`] = `
+<label
+  className="checkbox"
+  onClick={[Function]}
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    className="ml-2"
+  >
+    Test label
+  </span>
+</label>
+`;
+
+exports[`Atoms/LabelValuePair LabelValuePair Renders with label and text 1`] = `
+<div
+  className="columns is-multiline"
+>
+  <div
+    className="column "
+  >
+    <label
+      className="label"
+    >
+      Test label
+    </label>
+  </div>
+  <div
+    className="column"
+  >
+    Example Value
+  </div>
+</div>
+`;
+
+exports[`Atoms/LabelValuePair LabelValuePair Renders with label, text and 2 class values 1`] = `
+<div
+  className="columns is-multiline"
+>
+  <div
+    className="column is-2 has-text-weight-bold"
+  >
+    <label
+      className="label"
+    >
+      Test label
+    </label>
+  </div>
+  <div
+    className="column"
+  >
+    Example Value
+  </div>
+</div>
+`;
+
+exports[`Atoms/LabelValuePair LabelValuePair Renders with label, text and class 1`] = `
+<div
+  className="columns is-multiline"
+>
+  <div
+    className="column is-2"
+  >
+    <label
+      className="label"
+    >
+      Test label
+    </label>
+  </div>
+  <div
+    className="column"
+  >
+    Example Value
+  </div>
+</div>
+`;

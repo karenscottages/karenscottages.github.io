@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecules/dialog/DialogHeader DialogHeader Renders with a close function 1`] = `
+<div
+  className="p-2 is-flex is-justify-content-space-between card undefined white"
+>
+  <span
+    onClick={[Function]}
+  >
+    <i
+      className="far fa-times-circle mr-1"
+    />
+  </span>
+</div>
+`;
+
+exports[`Molecules/dialog/DialogHeader DialogHeader Renders with theme and no title 1`] = `
+<div
+  className="p-2 is-flex is-justify-content-space-between card undefined white"
+>
+  <span>
+    <i
+      className="far fa-times-circle mr-1"
+    />
+  </span>
+</div>
+`;
+
+exports[`Molecules/dialog/DialogHeader DialogHeader Renders with theme and title 1`] = `
+<div
+  className="p-2 is-flex is-justify-content-space-between card undefined black"
+>
+  <h2>
+    Test Overlay
+  </h2>
+  <span>
+    <i
+      className="far fa-times-circle mr-1"
+    />
+  </span>
+</div>
+`;

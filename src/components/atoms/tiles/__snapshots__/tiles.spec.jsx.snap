@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/Tiles Tile still renders correctly 1`] = `
+<tile
+  className="tile "
+>
+  Example Tile
+</tile>
+`;
+
+exports[`Atoms/Tiles Tile.Ancestor still renders correctly 1`] = `
+<tile
+  className="tile is-ancestor undefined"
+>
+  Example Tile
+</tile>
+`;
+
+exports[`Atoms/Tiles Tile.Child still renders correctly 1`] = `
+<tile
+  className="tile is-child undefined"
+>
+  Example Tile
+</tile>
+`;
+
+exports[`Atoms/Tiles Tile.Parent still renders correctly 1`] = `
+<tile
+  className="tile is-parent undefined"
+>
+  Example Tile
+</tile>
+`;

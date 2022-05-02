@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Views/productView/productView Product View page Renders with no props 1`] = `
+<div
+  className="container is-fluid"
+>
+  <div
+    className="section columns is-multiline"
+  >
+    <div
+      className="column"
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="card-header "
+        >
+          <div
+            className="columns"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="column"
+            >
+              <p
+                className="card-header-title"
+              >
+                 
+                Summary
+                 
+              </p>
+            </div>
+          </div>
+        </header>
+        <div
+          className="card-content "
+        />
+      </div>
+    </div>
+    <div
+      className="column"
+    >
+      <div
+        className="card "
+      >
+        <header
+          className="card-header "
+        >
+          <div
+            className="columns"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </header>
+        <div
+          className="card-content "
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
