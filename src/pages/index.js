@@ -9,11 +9,13 @@ const Index = () => {
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   </Head>
 
-  <section class="hero is-small is-primary">
-    <div class="hero-body">
-      <p class="title"> Karen's Cottages </p>
-      <p class="subtitle"> Beautiful Holiday Homes in Pickering, North Yorkshire. </p>
-    </div>
+  <section className="hero is-small is-primary">
+    <div className="hero-body">
+      <div className="container">
+        <h1 className="title"> Karen's Cottages </h1>
+        <h2 className="subtitle"> Beautiful Holiday Homes in Pickering, North Yorkshire. </h2>
+      </div>
+   </div>
   </section>
 
   <section className = "section">
@@ -32,24 +34,23 @@ const Index = () => {
       </Card.Content>
     </Card>
 
-    <Card>
-      <Card.Header title="Pickering"></Card.Header>
+    <Card title="Pickering">
       <Card.Content>
         Pickering is a small market town ideally situated for the North Yorkshire Moors & Steam Railway, 
         Flamingoland, York, Whitby, Scarborough and the Yorkshire Coast.
       </Card.Content>
-      </Card>
+    </Card>
 
     </section>
 
-    <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      <strong>Karen's Cottages</strong> 
-      <span class='pl-1'>Beautiful Holiday Homes in Pickering, North Yorkshire.</span>
-    </p>
-  </div>
-</footer>
+    <footer className="footer">
+      <div className="content has-text-centered">
+      <p>
+        <strong>Karen's Cottages</strong> 
+        <span className='pl-1'>Beautiful Holiday Homes in Pickering, North Yorkshire.</span>
+      </p>
+    </div>
+    </footer>
   </div>
 }
 
