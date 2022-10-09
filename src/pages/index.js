@@ -1,7 +1,7 @@
 import React from "react"
 import Head from "next/head";
 import { Card } from '../components/atoms/cards'
-import { Heading } from './heading.jsx'
+import { Heading } from '../components/pageElements/heading.jsx'
 
 const hello = () => alert("hello")
 
