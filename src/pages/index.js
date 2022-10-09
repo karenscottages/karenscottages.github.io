@@ -1,6 +1,9 @@
 import React from "react"
 import Head from "next/head";
 import { Card } from '../components/atoms/cards'
+import { Heading } from './heading.jsx'
+
+const hello = () => alert("hello")
 
 const Index = () => {
   return <div>
@@ -9,17 +12,13 @@ const Index = () => {
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
   </Head>
 
-  <section className="hero is-small is-primary">
-    <div className="hero-body">
-      <div className="container">
-        <h1 className="title"> Karen's Cottages </h1>
-        <h2 className="subtitle"> Beautiful Holiday Homes in Pickering, North Yorkshire. </h2>
-      </div>
-   </div>
-  </section>
+  <Heading />
 
-  <section className = "section">
-    <Card title="New Meadows">
+  <section className = "section intro">
+    <div className="container">
+    <div className="columns is-desktop mb-6">
+      <div className="column is-6-desktop">
+      <Card title="New Meadows">
       <Card.Content>
         <div className='block'>
           New Meadows is a single storey cottage, ideal for couples but will sleep up to 4. It offers a double bedroom along with a living room with a double sofa bed.
@@ -33,14 +32,34 @@ const Index = () => {
         </div>
       </Card.Content>
     </Card>
-
-    <Card title="Pickering">
+      </div>
+      <div className="column is-6-desktop">
+      <Card title="Pickering">
       <Card.Content>
-        Pickering is a small market town ideally situated for the North Yorkshire Moors & Steam Railway, 
-        Flamingoland, York, Whitby, Scarborough and the Yorkshire Coast.
+        <div className="columns">
+          <div className="column ">
+            <figure 
+              // style={{width: "435px", height: "290px"}}
+              className="image is-3by2"  
+            > <img 
+              // style={{width: "435px", height: "290px"}}
+              src="/photos/pickering/boat.jpg" 
+              className="has-ratio"
+              onClick={hello}
+            />
+            </figure>        
+          </div>
+          <div className="column is-two-thirds">
+            Pickering is a small market town ideally situated for the North Yorkshire Moors & Steam Railway, 
+            Flamingoland, York, Whitby, Scarborough and the Yorkshire Coast.
+          </div>
+        </div>
       </Card.Content>
     </Card>
+      </div>
+    </div>
 
+    </div>
     </section>
 
     <footer className="footer">
