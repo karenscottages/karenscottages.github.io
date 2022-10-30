@@ -1,10 +1,9 @@
 
 const titleStyle = {
-  font: "800 40px 'Helvetica'",
+  font: "800 40px Helvetica",
   color: "black",
   letterSpacing: "4px",
   WebkitTextFillColor: "white",
-  WebkitTextStroke: "2px"
 };
 
 const ValuePair = ({title, children}) => <div className="mb-1">
