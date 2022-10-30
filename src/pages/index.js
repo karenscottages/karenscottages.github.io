@@ -16,9 +16,13 @@ const Index = () => {
 
       <section className="section intro">
         <div className="container">
-          <div className="columns is-desktop mb-6">
-            <div className="column is-6-desktop">
-              <Card title="New Meadows">
+          <div className="columns is-desktop mb-6  is-multiline ">
+          <div className="column is-full">
+              <h1 className="title">New Meadows</h1>
+            </div>
+
+            <div className="column is-12-desktop">
+              <Card>
                 <Card.Content>
                   <div className="block">
                     New Meadows is a single storey cottage, ideal for couples
@@ -113,10 +117,6 @@ const Index = () => {
                 New Meadows Cottage is seperate from but adjoins our family home,
               so it has the added benefit of security for those who don't wish
              to be too secluded.
-            </div>
-            <div className="block">
-              <h4>Price Guide</h4>
-              <p>From £300 per week - Please call</p>
             </div>
           </div>
         </div>
