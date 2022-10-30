@@ -2,9 +2,9 @@
 const titleStyle = {
   font: "800 50px Arial",
   color: "black",
-  "letter-spacing": "4px",
-  "-webkit-text-fill-color": "white",
-  "-webkit-text-stroke": "3.0px"
+  letterSpacing: "4px",
+  WebkitTextFillColor: "white",
+  WebkitTextStroke: "3.0px"
 };
 
 export const Heading = () => <section className="hero is-small is-primary">
