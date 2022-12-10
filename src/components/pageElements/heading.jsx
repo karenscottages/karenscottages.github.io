@@ -6,8 +6,7 @@ const titleStyle = {
   WebkitTextFillColor: "white",
 };
 
-const ValuePair = ({title, children}) => <div className="mb-1">
-  <span className="mr-2">{title}:</span>	
+const HeadingInfo = ({children}) => <div className="mb-1">
   <span>{children}</span>
 </div>
 
@@ -21,12 +20,12 @@ export const Heading = () => <section className="hero is-small is-primary">
         </div>
         <div className="column">
           <div className="contact">
-          <ValuePair title="Telephone">01751 473258</ValuePair>
-            <ValuePair title="Email">
+            <HeadingInfo><a href="http://www.karenscottages.co.uk">karenscottages.co.uk</a></HeadingInfo>
+            <HeadingInfo>01751 473258</HeadingInfo>
+            <HeadingInfo>
               <a href="mailto:hill66@talktalk.net?Subject=Karen's Cottages Availability.">hill66@talktalk.net</a>
-            </ValuePair>
-            <ValuePair title="Website"><a href="http://www.karenscottages.co.uk">karenscottages.co.uk</a></ValuePair>
-            <ValuePair title="Price Guide">From £300 per week - Please call</ValuePair>
+            </HeadingInfo>
+            <HeadingInfo>From £300 per week - Please call</HeadingInfo>
           </div>
         </div>
       </div>
