@@ -43,10 +43,6 @@ const Index = () => {
                 Book a stay with us to be just moments from the North York Moors,
                 with the Scarborough coast just a half-hour drive from your door.
             </div>
-            <div className="column is-full">
-              Other nearby attractions include the Beck Isle Museum of Rural
-              Life, Dalby Forest, Go Ape! and the Ryedale Folk Museum.
-              </div>
 
             <div className="column is-full">
               New Meadows Cottage has a beautiful living room with a dining
@@ -66,9 +62,6 @@ const Index = () => {
           </div>
 
           <div className="columns is-multiline">
-            <div className="column is-full">
-              <h1 className="title">New Meadows</h1>
-            </div>
             <CaptionedImage url="/photos/newMeadows/newmeadows1.jpg">
               New Meadows is a single storey cottage, ideal for couples but will
               sleep up to 4.
@@ -90,27 +83,52 @@ const Index = () => {
             </CaptionedImage>
           </div>
 
-          <div className="column is-full">
-            <h1 className="title">Pickering</h1>
-          </div>
+          <div className="columns is-multiline">
+            <div className="column is-full">
+              <h1 className="title">Pickering</h1>
+            </div>
+            <div className="column is-full">
+              <div className="columns is-multiline">
+                <div className="column">
+                  <figure className="image is-3by2">
+                    <img
+                      src="/photos/pickering/boat.jpg"
+                      className="has-ratio"
+                    />
+                  </figure>
+                </div>
+                <div className="column is-two-thirds">
+                  <p className="mb-4">
+                    Pickering is a small market town ideally situated for the
+                    North Yorkshire Moors & Steam Railway, Flamingoland, York,
+                    Whitby, Scarborough and the Yorkshire Coast.
+                  </p>
+                  <p className="mb-4">
+                    Other nearby attractions include the Beck Isle Museum of Rural
+                    Life, Dalby Forest, Go Ape! and the Ryedale Folk Museum.
+                  </p>
 
-          <div className="block">
-            <div className="columns is-multiline">
-              <div className="column">
-                <figure className="image is-3by2">
-                  <img
-                    src="/photos/pickering/boat.jpg"
-                    className="has-ratio"
-                  />
-                </figure>
-              </div>
-              <div className="column is-two-thirds">
-                Pickering is a small market town ideally situated for the
-                North Yorkshire Moors & Steam Railway, Flamingoland, York,
-                Whitby, Scarborough and the Yorkshire Coast.
+                </div>
+
               </div>
             </div>
           </div>
+
+          <div className="columns is-multiline ">
+            <div className="column is-full">
+              <h1 className="title">North York Moors</h1>
+            </div>
+            <div className="column is-full">
+              There are stunning forest walks and excellent mountain bike 
+              routes at nearby Dalby Forest and in the North York Moors 
+              National Park.
+            </div>
+            
+            <div className="column is-full">
+              Dogs and small pets are allowed by prior arrangement. The cottage is non smoking.
+            </div>
+          </div>
+
         </div>
       </section>
 
